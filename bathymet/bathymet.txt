@@ -1,0 +1,312 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: NOAA
+      Originator: RIGIS
+      Publication_Date: 19890101
+      Title: Bathymetric Depth Contours for Narragansett Bay; s44hby97
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Providence, Rhode Island
+        Publisher: RIGIS
+      Other_Citation_Details: Suggested bibliographic reference: RIGIS, 1989. Bathymetric Depth Contours for Narragansett Bay; s44hby97. Rhode Island Geographic Information System (RIGIS) Data Distribution System, URL: http://www.rigis.org, Environmental Data Center, University of Rhode Island, Kingston, Rhode Island (last date accessed: 30 September 2014).
+      Online_Linkage: http://www.rigis.org
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: RIGIS
+          Publication_Date: 1989
+          Title: RIGIS Database
+          Geospatial_Data_Presentation_Form: vector digital data
+          Online_Linkage: http://www.rigis.org
+  Description:
+    Abstract: This data is bathymetric depth contours for Narragansett Bay and Block Island Sound at twenty foot intervals as depicted on NOAA nautical charts.
+    Purpose: Bathymetric depth contours for Narragansett Bay and Block Island Sound at twenty foot intervals as depicted on NOAA nautical charts.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 198906
+    Currentness_Reference: publication date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -71.909219
+      East_Bounding_Coordinate: -71.094102
+      North_Bounding_Coordinate: 41.875151
+      South_Bounding_Coordinate: 41.114272
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: elevation
+      Theme_Keyword: 006
+      Theme_Keyword: salt water
+      Theme_Keyword: bathymetry
+      Theme_Keyword: depth contours
+      Theme_Keyword: marine
+    Place:
+      Place_Keyword_Thesaurus: GNIS
+      Place_Keyword: United States
+      Place_Keyword: Rhode Island
+      Place_Keyword: northeast
+      Place_Keyword: New England
+      Place_Keyword: Narragansett Bay
+      Place_Keyword: Block Island Sound
+  Access_Constraints: None.
+  Use_Constraints:
+    This dataset is provided 'as is.’  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.
+    Please acknowledge both RIGIS and the primary producer(s) of this dataset in any derived products.  Versions of the RIGIS logo suitable for both printed and web-based products are available at http://www.rigis.org/logos.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Chris Damon
+        Contact_Organization: Environmental Data Center, University of Rhode Island
+      Contact_Position: Research Associate
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 1 Greenhouse Road
+        City: Kingston
+        State_or_Province: RI
+        Postal_Code: 02881
+      Contact_Voice_Telephone: 401-874-2930
+      Contact_Electronic_Mail_Address: chris@edc.uri.edu
+  Browse_Graphic:
+    Browse_Graphic_File_Name: http://www.rigis.org/images/metadata/elevation/bathy.gif
+    Browse_Graphic_File_Type: GIF
+  Data_Set_Credit: NOAA; RIGIS
+Data_Quality_Information:
+  Logical_Consistency_Report: This data was check by manual graphic overlay
+  Completeness_Report: This data was checked to be 100 % accurate
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: This data has a horizontal accuracy of plus or minus 100 meters
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NOAA Charts
+          Publication_Date:
+            See Specific Charts
+            Char 1 - 13205 - 199511 
+            Chart 2 - 13218 - 199611
+            Chart 3 - 13221 - 199504
+          Title: NOAA charts 13205 13218 13221
+      Source_Scale_Denominator: 80000
+      Type_of_Source_Media: Map
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: unknown
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: NOAA Charts
+      Source_Contribution: NOAA Charts
+    Process_Step:
+      Process_Description:
+        Spot depths manually digitized from source and converted to grid in arcinfo and resultant converted to polygon coverage
+        digitzing rms - 005 fuzzy - 1 meter
+      Process_Date: 199703
+    Process_Step:
+      Process_Description: Metadata imported.
+      Source_Used_Citation_Abbreviation: E:\RIGIS_new_data\elevation\Bathymetry.xml
+    Process_Step:
+      Process_Description: Dataset copied.
+      Source_Used_Citation_Abbreviation: Server=smasher; Service=5151; Database=RIGIS_data; Version=sde.DEFAULT
+    Process_Step:
+      Process_Description: Dataset copied.
+      Source_Used_Citation_Abbreviation: Server=depot; Service=5153; Version=sde.DEFAULT
+      Process_Date: 20080723
+      Process_Time: 16322700
+    Process_Step:
+      Process_Description: Updated Point of Contact information for this dataset from "RIGIS Coordinator" to "Chris Damon."
+      Process_Date: 20150528
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: University of Rhode Island Environmental Data Center
+            Contact_Person: Erica Tefft
+          Contact_Position: Research Associate
+          Contact_Address:
+            Address_Type: mailing and physical address
+            Address: Coastal Institute
+            Address: 1 Greenhouse Road
+            City: Kingston
+            State_or_Province: RI
+            Postal_Code: 02881
+          Contact_Voice_Telephone: 401-874-5054
+          Contact_Electronic_Mail_Address: erica@edc.uri.edu
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: G-polygon
+      Point_and_Vector_Object_Count: 1419
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Label point
+      Point_and_Vector_Object_Count: 1420
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 1419
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Point
+      Point_and_Vector_Object_Count: 4
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3800
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: 0.999994
+            Longitude_of_Central_Meridian: -71.500000
+            Latitude_of_Projection_Origin: 41.083333
+            False_Easting: 328083.333333
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.000512
+          Ordinate_Resolution: 0.000512
+        Planar_Distance_Units: survey feet
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+  Vertical_Coordinate_System_Definition:
+    Altitude_System_Definition:
+      Altitude_Resolution: 0.000010
+      Altitude_Encoding_Method: Explicit elevation coordinate included with horizontal coordinates
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Bathymetric_Contours
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: AREA
+    Attribute:
+      Attribute_Label: PERIMETER
+    Attribute:
+      Attribute_Label: S44HBY97_
+    Attribute:
+      Attribute_Label: S44HBY97_ID
+    Attribute:
+      Attribute_Label: GRID_CODE
+    Attribute:
+      Attribute_Label: SYMBOL
+    Attribute:
+      Attribute_Label: Shape_Length
+      Attribute_Definition: Length of feature in internal units.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape_Area
+      Attribute_Definition: Area of feature in internal units squared.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: s44hby97.pat
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: AREA
+      Attribute_Definition: Area of feature in internal units squared.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: PERIMETER
+      Attribute_Definition: Perimeter of feature in internal units.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: S44HBY97#
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: S44HBY97-ID
+      Attribute_Definition: User-defined feature number.
+      Attribute_Definition_Source: ESRI
+    Attribute:
+      Attribute_Label: GRID-CODE
+    Attribute:
+      Attribute_Label: SYMBOL
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: University of Rhode Island Environmental Data Center
+        Contact_Person: Erica Tefft
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 1 Greenhouse Road
+        City: Kingston
+        State_or_Province: RI
+        Postal_Code: 02881
+      Contact_Voice_Telephone: 401-874-5054
+      Contact_Electronic_Mail_Address: erica@edc.uri.edu
+      Contact_Instructions: email preferred
+  Distribution_Liability: This dataset is provided 'as is.'  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: Esri shapefile
+        File_Decompression_Technique: ZIP
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://www.rigis.org
+    Fees: No fee for downloading directly from the RIGIS Data Distribution System located at http://www.rigis.org.
+Metadata_Reference_Information:
+  Metadata_Date: 20070628
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: RI Department of Administration; Division of Information Technology
+        Contact_Person: REQUIRED: The person responsible for the metadata information.
+      Contact_Position: RIGIS Coordinator
+      Contact_Address:
+        Address_Type: mailing address
+        Address: 1 Capitol Hill
+        City: Providence
+        State_or_Province: Rhode Island
+        Postal_Code: 02908
+        Country: USA
+      Contact_Voice_Telephone: 401-222-6483
+      Contact_Facsimile_Telephone: 401-222-6482
+      Contact_Electronic_Mail_Address: rigis@admin.ri.gov
+      Hours_of_Service: 8:00 - 3:30
+      Contact_Instructions: E-mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
